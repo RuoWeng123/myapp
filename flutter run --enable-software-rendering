@@ -1,0 +1,353 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 2.18.0
+Flutter extension: 2.18.0
+VS Code: 1.27.2
+Platform: win
+Workspace type: Flutter
+Multi-root?: false
+Dart SDK:
+    Loc: D:\flutter\flutter\bin\cache\dart-sdk
+    Ver: 2.1.0-edge.760a9690c22ec3f3d163173737f9949f97e6e02a
+Flutter SDK:
+    Loc: D:\flutter\flutter
+    Ver: 0.8.2
+
+[10:47:52 AM]: Spawning D:\flutter\flutter\bin\flutter.bat with args ["run","--machine","-t","lib\\main.dart","-d","emulator-5554","--start-paused"]
+[10:47:52 AM]: ..  in D:\learn_file_git\flutter-app\myapp
+[10:47:53 AM]: <== [{"event":"daemon.connected","params":{"version":"0.4.2","pid":5884}}]
+[10:47:53 AM]: <== [{"event":"app.start","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","deviceId":"emulator-5554","directory":"D:\\learn_file_git\\flutter-app\\myapp","supportsRestart":true}}]
+[10:47:54 AM]: <== Launching lib\main.dart on Android SDK built for x86 in debug mode...
+[10:47:54 AM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"0","progressId":null,"message":"Initializing gradle..."}}]
+[10:47:54 AM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"0","progressId":null,"finished":true}}]
+[10:47:54 AM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"1","progressId":null,"message":"Resolving dependencies..."}}]
+[10:47:56 AM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"1","progressId":null,"finished":true}}]
+[10:47:56 AM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"2","progressId":null,"message":"Running 'gradlew assembleDebug'..."}}]
+[10:48:04 AM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"2","progressId":null,"finished":true}}]
+[10:48:04 AM]: <== Built build\app\outputs\apk\debug\app-debug.apk.
+[10:48:05 AM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"3","progressId":null,"message":"Installing build\\app\\outputs\\apk\\app.apk..."}}]
+[10:48:06 AM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"3","progressId":null,"finished":true}}]
+[10:48:08 AM]: <== [{"event":"app.debugPort","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","port":51978,"wsUri":"ws://127.0.0.1:51978/ws","baseUri":"file:///data/user/0/com.example.myapp/cache/myappRHPYIQ/myapp/"}}]
+[10:48:08 AM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"4","progressId":null,"message":"Syncing files to device Android SDK built for x86..."}}]
+[10:48:10 AM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"4","progressId":null,"finished":true}}]
+[10:48:10 AM]: <== [{"event":"app.started","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10"}}]
+[10:48:12 AM]: <== D/        ( 7060): HostConnection::get() New Host Connection established 0xc6e49080, tid 7079
+[10:48:12 AM]: ==> [{"id":"1","method":"app.callServiceExtension","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","methodName":"ext.flutter.debugPaint","params":{"enabled":false}}}]
+[10:48:12 AM]: ==> [{"id":"2","method":"app.callServiceExtension","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","methodName":"ext.flutter.showPerformanceOverlay","params":{"enabled":false}}}]
+[10:48:12 AM]: ==> [{"id":"3","method":"app.callServiceExtension","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","methodName":"ext.flutter.repaintRainbow","params":{"enabled":false}}}]
+[10:48:12 AM]: ==> [{"id":"4","method":"app.callServiceExtension","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","methodName":"ext.flutter.timeDilation","params":{"timeDilation":1}}}]
+[10:48:12 AM]: ==> [{"id":"5","method":"app.callServiceExtension","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","methodName":"ext.flutter.debugAllowBanner","params":{"enabled":true}}}]
+[10:48:12 AM]: ==> [{"id":"6","method":"app.callServiceExtension","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","methodName":"ext.flutter.debugPaintBaselinesEnabled","params":{"enabled":false}}}]
+[10:48:12 AM]: ==> [{"id":"7","method":"app.callServiceExtension","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","methodName":"ext.flutter.debugWidgetInspector","params":{"enabled":false}}}]
+[10:48:12 AM]: <== D/EGL_emulation( 7060): eglMakeCurrent: 0xe03150a0: ver 2 0 (tinfo 0xdfcedb80)
+[10:48:12 AM]: <== [{"id":"5","result":{"enabled":"true","type":"_extensionType","method":"ext.flutter.debugAllowBanner"}}]
+[10:48:12 AM]: <== [{"id":"6","result":{"enabled":"false","type":"_extensionType","method":"ext.flutter.debugPaintBaselinesEnabled"}}]
+[10:48:12 AM]: <== [{"id":"7","result":{"enabled":"false","type":"_extensionType","method":"ext.flutter.debugWidgetInspector"}}]
+[10:48:12 AM]: <== [{"id":"4","result":{"timeDilation":"1.0","type":"_extensionType","method":"ext.flutter.timeDilation"}}]
+[10:48:12 AM]: <== [{"id":"3","result":{"enabled":"false","type":"_extensionType","method":"ext.flutter.repaintRainbow"}}]
+[10:48:12 AM]: <== [{"id":"2","result":{"enabled":"false","type":"_extensionType","method":"ext.flutter.showPerformanceOverlay"}}]
+[10:48:12 AM]: <== [{"id":"1","result":{"enabled":"false","type":"_extensionType","method":"ext.flutter.debugPaint"}}]
+[11:12:22 AM]: ==> [{"id":"8","method":"app.restart","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","fullRestart":false,"pause":true}}]
+[11:12:22 AM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"5","progressId":"hot.reload","message":"Initializing hot reload..."}}]
+[11:12:22 AM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"6","progressId":null,"message":"Syncing files to device Android SDK built for x86..."}}]
+[11:12:22 AM]: compiler message: lib/main.dart:53:53: Error: Expected ';' after this.
+[11:12:22 AM]: compiler message:                 return _buildRow(_suggestions[index])
+compiler message:                                                     ^
+[11:12:22 AM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"6","progressId":null,"finished":true}}]
+[11:12:22 AM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"5","progressId":"hot.reload","finished":true}}]
+[11:12:22 AM]: <== Reloaded 1 of 455 libraries in 826ms.
+[11:12:22 AM]: <== [{"id":"8","result":{"code":0,"message":"Reloaded 1 of 455 libraries"}}]
+[11:12:40 AM]: ==> [{"id":"9","method":"app.restart","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","fullRestart":false,"pause":true}}]
+[11:12:40 AM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"7","progressId":"hot.reload","message":"Performing hot reload..."}}]
+[11:12:40 AM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"8","progressId":null,"message":"Syncing files to device Android SDK built for x86..."}}]
+[11:12:40 AM]: compiler message: lib/main.dart:52:53: Error: Expected ';' after this.
+compiler message:                 return _buildRow(_suggestions[index])
+[11:12:40 AM]: compiler message:                                                     ^
+[11:12:40 AM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"8","progressId":null,"finished":true}}]
+[11:12:41 AM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"7","progressId":"hot.reload","finished":true}}]
+[11:12:41 AM]: <== Reloaded 1 of 455 libraries in 505ms.
+[11:12:41 AM]: <== [{"id":"9","result":{"code":0,"message":"Reloaded 1 of 455 libraries"}}]
+[11:17:32 AM]: ==> [{"id":"10","method":"app.restart","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","fullRestart":false,"pause":true}}]
+[11:17:32 AM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"9","progressId":"hot.reload","message":"Performing hot reload..."}}]
+[11:17:32 AM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"10","progressId":null,"message":"Syncing files to device Android SDK built for x86..."}}]
+[11:17:32 AM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"10","progressId":null,"finished":true}}]
+[11:17:32 AM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"9","progressId":"hot.reload","finished":true}}]
+[11:17:32 AM]: <== Reloaded 1 of 455 libraries in 521ms.
+[11:17:32 AM]: <== [{"id":"10","result":{"code":0,"message":"Reloaded 1 of 455 libraries"}}]
+[1:32:53 PM]: ==> [{"id":"11","method":"app.restart","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","fullRestart":false,"pause":true}}]
+[1:32:53 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"11","progressId":"hot.reload","message":"Performing hot reload..."}}]
+[1:32:53 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"12","progressId":null,"message":"Syncing files to device Android SDK built for x86..."}}]
+[1:32:53 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"12","progressId":null,"finished":true}}]
+[1:32:54 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"11","progressId":"hot.reload","finished":true}}]
+[1:32:54 PM]: <== Reloaded 1 of 455 libraries in 775ms.
+[1:32:54 PM]: <== [{"id":"11","result":{"code":0,"message":"Reloaded 1 of 455 libraries"}}]
+[2:08:08 PM]: ==> [{"id":"12","method":"app.restart","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","fullRestart":false,"pause":true}}]
+[2:08:08 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"13","progressId":"hot.reload","message":"Performing hot reload..."}}]
+[2:08:08 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"14","progressId":null,"message":"Syncing files to device Android SDK built for x86..."}}]
+[2:08:08 PM]: compiler message: lib/main.dart:13:70: Error: Getter not found: '_pushSaved'.
+compiler message:                 new IconButton(icon:new Icon(Icons.list), onpressed: _pushSaved),
+[2:08:08 PM]: compiler message:                                                                      ^^^^^^^^^^
+[2:08:08 PM]: compiler message: lib/main.dart:13:59: Error: No named parameter with the name 'onpressed'.
+compiler message:                 new IconButton(icon:new Icon(Icons.list), onpressed: _pushSaved),
+compiler message:                                                           ^^^^^^^^^
+[2:08:08 PM]: compiler message: file:///D:/flutter/flutter/packages/flutter/lib/src/material/icon_button.dart:1: Error: Found this candidate, but the arguments don't match.
+[2:08:08 PM]: compiler message: lib/main.dart:16:16: Error: Method not found: '_buildSuggestions'.
+compiler message:          body: _buildSuggestions(),
+[2:08:08 PM]: compiler message:                ^^^^^^^^^^^^^^^^^
+[2:08:08 PM]: compiler message: lib/main.dart:13:70: Error: The getter '_pushSaved' isn't defined for the class '#lib1::MyApp'.
+[2:08:08 PM]: compiler message: Try correcting the name to the name of an existing getter, or defining a getter or field named '_pushSaved'.
+compiler message:                 new IconButton(icon:new Icon(Icons.list), onpressed: _pushSaved),
+compiler message:                                                                      ^
+[2:08:08 PM]: compiler message: lib/main.dart:16:16: Error: The method '_buildSuggestions' isn't defined for the class '#lib1::MyApp'.
+[2:08:08 PM]: compiler message: Try correcting the name to the name of an existing method, or defining a method named '_buildSuggestions'.
+compiler message:          body: _buildSuggestions(),
+compiler message:                ^
+[2:08:08 PM]: compiler message: lib/main.dart:82:29: Error: Expected ';' after this.
+[2:08:08 PM]: compiler message:                             ),
+compiler message:                             ^
+[2:08:08 PM]: compiler message: lib/main.dart:82:30: Error: Expected an identifier, but got ','.
+compiler message:                             ),
+[2:08:08 PM]: compiler message:                              ^
+[2:08:08 PM]: compiler message: lib/main.dart:82:30: Error: Expected ';' after this.
+[2:08:08 PM]: compiler message:                             ),
+compiler message:                              ^
+[2:08:08 PM]: compiler message: lib/main.dart:82:30: Error: Getter not found: ''.
+compiler message:                             ),
+compiler message:                              ^
+[2:08:08 PM]: compiler message: lib/main.dart:82:30: Error: Unexpected token ';'.
+[2:08:08 PM]: compiler message:                             ),
+compiler message:                              ^
+[2:08:08 PM]: compiler message: lib/main.dart:82:30: Error: The getter '' isn't defined for the class '#lib1::RandomWordsState'.
+compiler message: Try correcting the name to the name of an existing getter, or defining a getter or field named ''.
+[2:08:08 PM]: compiler message:                             ),
+compiler message:                              ^
+[2:08:09 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"14","progressId":null,"finished":true}}]
+[2:08:09 PM]: <== I/flutter ( 7060): ══╡ EXCEPTION CAUGHT BY WIDGETS LIBRARY ╞═══════════════════════════════════════════════════════════
+[2:08:09 PM]: <== I/flutter ( 7060): The following _CompileTimeError was thrown building MyApp(dirty):
+[2:08:09 PM]: <== I/flutter ( 7060): 'file:///D:/learn_file_git/flutter-app/myapp/lib/main.dart': error: line 13 pos 70:
+[2:08:09 PM]: <== I/flutter ( 7060): lib/main.dart:13:70: Error: The getter '_pushSaved' isn't defined for the class '#lib1::MyApp'.
+[2:08:09 PM]: <== I/flutter ( 7060): Try correcting the name to the name of an existing getter, or defining a getter or field named
+[2:08:09 PM]: <== I/flutter ( 7060): '_pushSaved'.
+[2:08:09 PM]: <== I/flutter ( 7060):                 new IconButton(icon:new Icon(Icons.list), onpressed: _pushSaved),
+[2:08:09 PM]: <== I/flutter ( 7060):                                                                      ^
+[2:08:09 PM]: <== I/flutter ( 7060):                 new IconButton(icon:new Icon(Icons.list), onpressed: _pushSaved),
+[2:08:09 PM]: <== I/flutter ( 7060):                                                                      ^
+[2:08:09 PM]: <== I/flutter ( 7060):
+[2:08:09 PM]: <== I/flutter ( 7060): When the exception was thrown, this was the stack:
+[2:08:09 PM]: <== I/flutter ( 7060): #0      StatelessElement.build (package:flutter/src/widgets/framework.dart:3707:28)
+[2:08:09 PM]: <== I/flutter ( 7060): #1      ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:3654:15)
+[2:08:09 PM]: <== I/flutter ( 7060): #2      Element.rebuild (package:flutter/src/widgets/framework.dart:3507:5)
+[2:08:09 PM]: <== I/flutter ( 7060): #3      BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:2255:33)
+[2:08:09 PM]: <== I/flutter ( 7060): #4      _WidgetsFlutterBinding&BindingBase&GestureBinding&ServicesBinding&SchedulerBinding&PaintingBinding&SemanticsBinding&RendererBinding&WidgetsBinding.drawFrame (package:flutter/src/widgets/binding.dart:653:20)
+[2:08:09 PM]: <== I/flutter ( 7060): #5      _WidgetsFlutterBinding&BindingBase&GestureBinding&ServicesBinding&SchedulerBinding&PaintingBinding&SemanticsBinding&RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:208:5)
+[2:08:09 PM]: <== I/flutter ( 7060): #6      _WidgetsFlutterBinding&BindingBase&GestureBinding&ServicesBinding&SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:990:15)
+[2:08:09 PM]: <== I/flutter ( 7060): #7      _WidgetsFlutterBinding&BindingBase&GestureBinding&ServicesBinding&SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:930:9)
+[2:08:09 PM]: <== I/flutter ( 7060): #8      _WidgetsFlutterBinding&BindingBase&GestureBinding&ServicesBinding&SchedulerBinding.scheduleWarmUpFrame.<anonymous closure> (package:flutter/src/scheduler/binding.dart:751:7)
+[2:08:09 PM]: <== I/flutter ( 7060): #10     _Timer._runTimers (dart:isolate/runtime/libtimer_impl.dart:382:19)
+[2:08:09 PM]: <== I/flutter ( 7060): #11     _Timer._handleMessage (dart:isolate/runtime/libtimer_impl.dart:416:5)
+[2:08:09 PM]: <== I/flutter ( 7060): #12     _RawReceivePortImpl._handleMessage (dart:isolate/runtime/libisolate_patch.dart:171:12)
+[2:08:09 PM]: <== I/flutter ( 7060): (elided one frame from package dart:async)
+[2:08:09 PM]: <== I/flutter ( 7060): ════════════════════════════════════════════════════════════════════════════════════════════════════
+[2:08:09 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"13","progressId":"hot.reload","finished":true}}]
+[2:08:09 PM]: <== Reloaded 1 of 455 libraries in 602ms.
+[2:08:09 PM]: <== [{"id":"12","result":{"code":0,"message":"Reloaded 1 of 455 libraries"}}]
+[2:08:49 PM]: ==> [{"id":"13","method":"app.restart","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","fullRestart":false,"pause":true}}]
+[2:08:49 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"15","progressId":"hot.reload","message":"Performing hot reload..."}}]
+[2:08:49 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"16","progressId":null,"message":"Syncing files to device Android SDK built for x86..."}}]
+[2:08:49 PM]: compiler message: lib/main.dart:13:70: Error: Getter not found: '_pushSaved'.
+[2:08:49 PM]: compiler message:                 new IconButton(icon:new Icon(Icons.list), onPressed: _pushSaved),
+compiler message:                                                                      ^^^^^^^^^^
+compiler message: lib/main.dart:16:16: Error: Method not found: '_buildSuggestions'.
+compiler message:          body: _buildSuggestions(),
+compiler message:                ^^^^^^^^^^^^^^^^^
+[2:08:49 PM]: compiler message: lib/main.dart:13:70: Error: The getter '_pushSaved' isn't defined for the class '#lib1::MyApp'.
+compiler message: Try correcting the name to the name of an existing getter, or defining a getter or field named '_pushSaved'.
+compiler message:                 new IconButton(icon:new Icon(Icons.list), onPressed: _pushSaved),
+[2:08:49 PM]: compiler message:                                                                      ^
+[2:08:49 PM]: compiler message: lib/main.dart:16:16: Error: The method '_buildSuggestions' isn't defined for the class '#lib1::MyApp'.
+[2:08:49 PM]: compiler message: Try correcting the name to the name of an existing method, or defining a method named '_buildSuggestions'.
+compiler message:          body: _buildSuggestions(),
+compiler message:                ^
+[2:08:49 PM]: compiler message: lib/main.dart:82:29: Error: Expected ';' after this.
+[2:08:49 PM]: compiler message:                             ),
+compiler message:                             ^
+compiler message: lib/main.dart:82:30: Error: Expected an identifier, but got ','.
+compiler message:                             ),
+compiler message:                              ^
+[2:08:49 PM]: compiler message: lib/main.dart:82:30: Error: Expected ';' after this.
+compiler message:                             ),
+compiler message:                              ^
+compiler message: lib/main.dart:82:30: Error: Getter not found: ''.
+compiler message:                             ),
+compiler message:                              ^
+[2:08:49 PM]: compiler message: lib/main.dart:82:30: Error: Unexpected token ';'.
+compiler message:                             ),
+compiler message:                              ^
+[2:08:49 PM]: compiler message: lib/main.dart:82:30: Error: The getter '' isn't defined for the class '#lib1::RandomWordsState'.
+[2:08:49 PM]: compiler message: Try correcting the name to the name of an existing getter, or defining a getter or field named ''.
+compiler message:                             ),
+compiler message:                              ^
+[2:08:49 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"16","progressId":null,"finished":true}}]
+[2:08:49 PM]: <== I/flutter ( 7060): ══╡ EXCEPTION CAUGHT BY WIDGETS LIBRARY ╞═══════════════════════════════════════════════════════════
+[2:08:49 PM]: <== I/flutter ( 7060): The following _CompileTimeError was thrown building MyApp(dirty):
+[2:08:49 PM]: <== I/flutter ( 7060): 'file:///D:/learn_file_git/flutter-app/myapp/lib/main.dart': error: line 13 pos 70:
+[2:08:49 PM]: <== I/flutter ( 7060): lib/main.dart:13:70: Error: The getter '_pushSaved' isn't defined for the class '#lib1::MyApp'.
+[2:08:49 PM]: <== I/flutter ( 7060): Try correcting the name to the name of an existing getter, or defining a getter or field named
+[2:08:49 PM]: <== I/flutter ( 7060): '_pushSaved'.
+[2:08:49 PM]: <== I/flutter ( 7060):                 new IconButton(icon:new Icon(Icons.list), onPressed: _pushSaved),
+[2:08:49 PM]: <== I/flutter ( 7060):                                                                      ^
+[2:08:49 PM]: <== I/flutter ( 7060):                 new IconButton(icon:new Icon(Icons.list), onPressed: _pushSaved),
+[2:08:49 PM]: <== I/flutter ( 7060):                                                                      ^
+[2:08:49 PM]: <== I/flutter ( 7060):
+[2:08:49 PM]: <== I/flutter ( 7060): When the exception was thrown, this was the stack:
+[2:08:49 PM]: <== I/flutter ( 7060): #0      StatelessElement.build (package:flutter/src/widgets/framework.dart:3707:28)
+[2:08:49 PM]: <== I/flutter ( 7060): #1      ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:3654:15)
+[2:08:49 PM]: <== I/flutter ( 7060): #2      Element.rebuild (package:flutter/src/widgets/framework.dart:3507:5)
+[2:08:49 PM]: <== I/flutter ( 7060): #3      BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:2255:33)
+[2:08:49 PM]: <== I/flutter ( 7060): #4      _WidgetsFlutterBinding&BindingBase&GestureBinding&ServicesBinding&SchedulerBinding&PaintingBinding&SemanticsBinding&RendererBinding&WidgetsBinding.drawFrame (package:flutter/src/widgets/binding.dart:653:20)
+[2:08:49 PM]: <== I/flutter ( 7060): #5      _WidgetsFlutterBinding&BindingBase&GestureBinding&ServicesBinding&SchedulerBinding&PaintingBinding&SemanticsBinding&RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:208:5)
+[2:08:49 PM]: <== I/flutter ( 7060): #6      _WidgetsFlutterBinding&BindingBase&GestureBinding&ServicesBinding&SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:990:15)
+[2:08:49 PM]: <== I/flutter ( 7060): #7      _WidgetsFlutterBinding&BindingBase&GestureBinding&ServicesBinding&SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:930:9)
+[2:08:49 PM]: <== I/flutter ( 7060): #8      _WidgetsFlutterBinding&BindingBase&GestureBinding&ServicesBinding&SchedulerBinding.scheduleWarmUpFrame.<anonymous closure> (package:flutter/src/scheduler/binding.dart:751:7)
+[2:08:49 PM]: <== I/flutter ( 7060): #10     _Timer._runTimers (dart:isolate/runtime/libtimer_impl.dart:382:19)
+[2:08:49 PM]: <== I/flutter ( 7060): #11     _Timer._handleMessage (dart:isolate/runtime/libtimer_impl.dart:416:5)
+[2:08:49 PM]: <== I/flutter ( 7060): #12     _RawReceivePortImpl._handleMessage (dart:isolate/runtime/libisolate_patch.dart:171:12)
+[2:08:49 PM]: <== I/flutter ( 7060): (elided one frame from package dart:async)
+[2:08:49 PM]: <== I/flutter ( 7060): ════════════════════════════════════════════════════════════════════════════════════════════════════
+[2:08:49 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"15","progressId":"hot.reload","finished":true}}]
+[2:08:49 PM]: <== Reloaded 1 of 455 libraries in 498ms.
+[2:08:49 PM]: <== [{"id":"13","result":{"code":0,"message":"Reloaded 1 of 455 libraries"}}]
+[2:11:04 PM]: ==> [{"id":"14","method":"app.restart","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","fullRestart":false,"pause":true}}]
+[2:11:04 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"17","progressId":"hot.reload","message":"Performing hot reload..."}}]
+[2:11:04 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"18","progressId":null,"message":"Syncing files to device Android SDK built for x86..."}}]
+[2:11:04 PM]: compiler message: lib/main.dart:13:70: Error: Getter not found: '_pushSaved'.
+[2:11:04 PM]: compiler message:                 new IconButton(icon:new Icon(Icons.list), onPressed: _pushSaved),
+compiler message:                                                                      ^^^^^^^^^^
+compiler message: lib/main.dart:16:16: Error: Method not found: '_buildSuggestions'.
+compiler message:          body: _buildSuggestions(),
+compiler message:                ^^^^^^^^^^^^^^^^^
+compiler message: lib/main.dart:13:70: Error: The getter '_pushSaved' isn't defined for the class '#lib1::MyApp'.
+compiler message: Try correcting the name to the name of an existing getter, or defining a getter or field named '_pushSaved'.
+compiler message:                 new IconButton(icon:new Icon(Icons.list), onPressed: _pushSaved),
+compiler message:                                                                      ^
+compiler message: lib/main.dart:16:16: Error: The method '_buildSuggestions' isn't defined for the class '#lib1::MyApp'.
+compiler message: Try correcting the name to the name of an existing method, or defining a method named '_buildSuggestions'.
+compiler message:          body: _buildSuggestions(),
+compiler message:                ^
+[2:11:04 PM]: compiler message: lib/main.dart:82:29: Error: Expected ';' after this.
+[2:11:04 PM]: compiler message:                             ),
+compiler message:                             ^
+compiler message: lib/main.dart:82:30: Error: Expected an identifier, but got ','.
+compiler message:                             ),
+compiler message:                              ^
+compiler message: lib/main.dart:82:30: Error: Expected ';' after this.
+compiler message:                             ),
+compiler message:                              ^
+compiler message: lib/main.dart:82:30: Error: Getter not found: ''.
+compiler message:                             ),
+compiler message:                              ^
+compiler message: lib/main.dart:82:30: Error: Unexpected token ';'.
+compiler message:                             ),
+compiler message:                              ^
+[2:11:04 PM]: compiler message: lib/main.dart:82:30: Error: The getter '' isn't defined for the class '#lib1::RandomWordsState'.
+[2:11:04 PM]: compiler message: Try correcting the name to the name of an existing getter, or defining a getter or field named ''.
+compiler message:                             ),
+compiler message:                              ^
+[2:11:04 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"18","progressId":null,"finished":true}}]
+[2:11:04 PM]: <== I/flutter ( 7060): ══╡ EXCEPTION CAUGHT BY WIDGETS LIBRARY ╞═══════════════════════════════════════════════════════════
+[2:11:04 PM]: <== I/flutter ( 7060): The following _CompileTimeError was thrown building MyApp(dirty):
+[2:11:04 PM]: <== I/flutter ( 7060): 'file:///D:/learn_file_git/flutter-app/myapp/lib/main.dart': error: line 13 pos 70:
+[2:11:04 PM]: <== I/flutter ( 7060): lib/main.dart:13:70: Error: The getter '_pushSaved' isn't defined for the class '#lib1::MyApp'.
+[2:11:04 PM]: <== I/flutter ( 7060): Try correcting the name to the name of an existing getter, or defining a getter or field named
+[2:11:04 PM]: <== I/flutter ( 7060): '_pushSaved'.
+[2:11:04 PM]: <== I/flutter ( 7060):                 new IconButton(icon:new Icon(Icons.list), onPressed: _pushSaved),
+[2:11:04 PM]: <== I/flutter ( 7060):                                                                      ^
+[2:11:04 PM]: <== I/flutter ( 7060):                 new IconButton(icon:new Icon(Icons.list), onPressed: _pushSaved),
+[2:11:04 PM]: <== I/flutter ( 7060):                                                                      ^
+[2:11:04 PM]: <== I/flutter ( 7060):
+[2:11:04 PM]: <== I/flutter ( 7060): When the exception was thrown, this was the stack:
+[2:11:04 PM]: <== I/flutter ( 7060): #0      StatelessElement.build (package:flutter/src/widgets/framework.dart:3707:28)
+[2:11:04 PM]: <== I/flutter ( 7060): #1      ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:3654:15)
+[2:11:04 PM]: <== I/flutter ( 7060): #2      Element.rebuild (package:flutter/src/widgets/framework.dart:3507:5)
+[2:11:04 PM]: <== I/flutter ( 7060): #3      BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:2255:33)
+[2:11:04 PM]: <== I/flutter ( 7060): #4      _WidgetsFlutterBinding&BindingBase&GestureBinding&ServicesBinding&SchedulerBinding&PaintingBinding&SemanticsBinding&RendererBinding&WidgetsBinding.drawFrame (package:flutter/src/widgets/binding.dart:653:20)
+[2:11:04 PM]: <== I/flutter ( 7060): #5      _WidgetsFlutterBinding&BindingBase&GestureBinding&ServicesBinding&SchedulerBinding&PaintingBinding&SemanticsBinding&RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:208:5)
+[2:11:04 PM]: <== I/flutter ( 7060): #6      _WidgetsFlutterBinding&BindingBase&GestureBinding&ServicesBinding&SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:990:15)
+[2:11:04 PM]: <== I/flutter ( 7060): #7      _WidgetsFlutterBinding&BindingBase&GestureBinding&ServicesBinding&SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:930:9)
+[2:11:04 PM]: <== I/flutter ( 7060): #8      _WidgetsFlutterBinding&BindingBase&GestureBinding&ServicesBinding&SchedulerBinding.scheduleWarmUpFrame.<anonymous closure> (package:flutter/src/scheduler/binding.dart:751:7)
+[2:11:04 PM]: <== I/flutter ( 7060): #10     _Timer._runTimers (dart:isolate/runtime/libtimer_impl.dart:382:19)
+[2:11:04 PM]: <== I/flutter ( 7060): #11     _Timer._handleMessage (dart:isolate/runtime/libtimer_impl.dart:416:5)
+[2:11:04 PM]: <== I/flutter ( 7060): #12     _RawReceivePortImpl._handleMessage (dart:isolate/runtime/libisolate_patch.dart:171:12)
+[2:11:04 PM]: <== I/flutter ( 7060): (elided one frame from package dart:async)
+[2:11:04 PM]: <== I/flutter ( 7060): ════════════════════════════════════════════════════════════════════════════════════════════════════
+[2:11:04 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"17","progressId":"hot.reload","finished":true}}]
+[2:11:04 PM]: <== Reloaded 1 of 455 libraries in 448ms.
+[2:11:04 PM]: <== [{"id":"14","result":{"code":0,"message":"Reloaded 1 of 455 libraries"}}]
+[2:11:40 PM]: ==> [{"id":"15","method":"app.restart","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","fullRestart":false,"pause":true}}]
+[2:11:40 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"19","progressId":"hot.reload","message":"Performing hot reload..."}}]
+[2:11:40 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"20","progressId":null,"message":"Syncing files to device Android SDK built for x86..."}}]
+[2:11:40 PM]: compiler message: lib/main.dart:13:70: Error: Getter not found: '_pushSaved'.
+compiler message:                 new IconButton(icon:new Icon(Icons.list), onPressed: _pushSaved),
+[2:11:40 PM]: compiler message:                                                                      ^^^^^^^^^^
+compiler message: lib/main.dart:16:16: Error: Method not found: '_buildSuggestions'.
+compiler message:          body: _buildSuggestions(),
+compiler message:                ^^^^^^^^^^^^^^^^^
+compiler message: lib/main.dart:13:70: Error: The getter '_pushSaved' isn't defined for the class '#lib1::MyApp'.
+compiler message: Try correcting the name to the name of an existing getter, or defining a getter or field named '_pushSaved'.
+compiler message:                 new IconButton(icon:new Icon(Icons.list), onPressed: _pushSaved),
+compiler message:                                                                      ^
+compiler message: lib/main.dart:16:16: Error: The method '_buildSuggestions' isn't defined for the class '#lib1::MyApp'.
+compiler message: Try correcting the name to the name of an existing method, or defining a method named '_buildSuggestions'.
+compiler message:          body: _buildSuggestions(),
+compiler message:                ^
+[2:11:40 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"20","progressId":null,"finished":true}}]
+[2:11:41 PM]: <== I/flutter ( 7060): ══╡ EXCEPTION CAUGHT BY WIDGETS LIBRARY ╞═══════════════════════════════════════════════════════════
+[2:11:41 PM]: <== I/flutter ( 7060): The following _CompileTimeError was thrown building MyApp(dirty):
+[2:11:41 PM]: <== I/flutter ( 7060): 'file:///D:/learn_file_git/flutter-app/myapp/lib/main.dart': error: line 13 pos 70:
+[2:11:41 PM]: <== I/flutter ( 7060): lib/main.dart:13:70: Error: The getter '_pushSaved' isn't defined for the class '#lib1::MyApp'.
+[2:11:41 PM]: <== I/flutter ( 7060): Try correcting the name to the name of an existing getter, or defining a getter or field named
+[2:11:41 PM]: <== I/flutter ( 7060): '_pushSaved'.
+[2:11:41 PM]: <== I/flutter ( 7060):                 new IconButton(icon:new Icon(Icons.list), onPressed: _pushSaved),
+[2:11:41 PM]: <== I/flutter ( 7060):                                                                      ^
+[2:11:41 PM]: <== I/flutter ( 7060):                 new IconButton(icon:new Icon(Icons.list), onPressed: _pushSaved),
+[2:11:41 PM]: <== I/flutter ( 7060):                                                                      ^
+[2:11:41 PM]: <== I/flutter ( 7060):
+[2:11:41 PM]: <== I/flutter ( 7060): When the exception was thrown, this was the stack:
+[2:11:41 PM]: <== I/flutter ( 7060): #0      StatelessElement.build (package:flutter/src/widgets/framework.dart:3707:28)
+[2:11:41 PM]: <== I/flutter ( 7060): #1      ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:3654:15)
+[2:11:41 PM]: <== I/flutter ( 7060): #2      Element.rebuild (package:flutter/src/widgets/framework.dart:3507:5)
+[2:11:41 PM]: <== I/flutter ( 7060): #3      BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:2255:33)
+[2:11:41 PM]: <== I/flutter ( 7060): #4      _WidgetsFlutterBinding&BindingBase&GestureBinding&ServicesBinding&SchedulerBinding&PaintingBinding&SemanticsBinding&RendererBinding&WidgetsBinding.drawFrame (package:flutter/src/widgets/binding.dart:653:20)
+[2:11:41 PM]: <== I/flutter ( 7060): #5      _WidgetsFlutterBinding&BindingBase&GestureBinding&ServicesBinding&SchedulerBinding&PaintingBinding&SemanticsBinding&RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:208:5)
+[2:11:41 PM]: <== I/flutter ( 7060): #6      _WidgetsFlutterBinding&BindingBase&GestureBinding&ServicesBinding&SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:990:15)
+[2:11:41 PM]: <== I/flutter ( 7060): #7      _WidgetsFlutterBinding&BindingBase&GestureBinding&ServicesBinding&SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:930:9)
+[2:11:41 PM]: <== I/flutter ( 7060): #8      _WidgetsFlutterBinding&BindingBase&GestureBinding&ServicesBinding&SchedulerBinding.scheduleWarmUpFrame.<anonymous closure> (package:flutter/src/scheduler/binding.dart:751:7)
+[2:11:41 PM]: <== I/flutter ( 7060): #10     _Timer._runTimers (dart:isolate/runtime/libtimer_impl.dart:382:19)
+[2:11:41 PM]: <== I/flutter ( 7060): #11     _Timer._handleMessage (dart:isolate/runtime/libtimer_impl.dart:416:5)
+[2:11:41 PM]: <== I/flutter ( 7060): #12     _RawReceivePortImpl._handleMessage (dart:isolate/runtime/libisolate_patch.dart:171:12)
+[2:11:41 PM]: <== I/flutter ( 7060): (elided one frame from package dart:async)
+[2:11:41 PM]: <== I/flutter ( 7060): ════════════════════════════════════════════════════════════════════════════════════════════════════
+[2:11:41 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"19","progressId":"hot.reload","finished":true}}]
+[2:11:41 PM]: <== Reloaded 1 of 455 libraries in 457ms.
+[2:11:41 PM]: <== [{"id":"15","result":{"code":0,"message":"Reloaded 1 of 455 libraries"}}]
+[2:16:09 PM]: ==> [{"id":"16","method":"app.restart","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","fullRestart":false,"pause":true}}]
+[2:16:09 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"21","progressId":"hot.reload","message":"Performing hot reload..."}}]
+[2:16:10 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"22","progressId":null,"message":"Syncing files to device Android SDK built for x86..."}}]
+[2:16:10 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"22","progressId":null,"finished":true}}]
+[2:16:10 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"21","progressId":"hot.reload","finished":true}}]
+[2:16:10 PM]: <== Reloaded 1 of 455 libraries in 536ms.
+[2:16:10 PM]: <== [{"id":"16","result":{"code":0,"message":"Reloaded 1 of 455 libraries"}}]
+[2:17:40 PM]: ==> [{"id":"17","method":"app.restart","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","fullRestart":false,"pause":true}}]
+[2:17:40 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"23","progressId":"hot.reload","message":"Performing hot reload..."}}]
+[2:17:41 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"24","progressId":null,"message":"Syncing files to device Android SDK built for x86..."}}]
+[2:17:41 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"24","progressId":null,"finished":true}}]
+[2:17:41 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"23","progressId":"hot.reload","finished":true}}]
+[2:17:41 PM]: <== Reloaded 1 of 455 libraries in 550ms.
+[2:17:41 PM]: <== [{"id":"17","result":{"code":0,"message":"Reloaded 1 of 455 libraries"}}]
+[2:21:33 PM]: ==> [{"id":"18","method":"app.restart","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","fullRestart":false,"pause":true}}]
+[2:21:33 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"25","progressId":"hot.reload","message":"Performing hot reload..."}}]
+[2:21:34 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"26","progressId":null,"message":"Syncing files to device Android SDK built for x86..."}}]
+[2:21:34 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"26","progressId":null,"finished":true}}]
+[2:21:34 PM]: <== [{"event":"app.progress","params":{"appId":"34009aa7-fd0c-4c0f-915c-579261117b10","id":"25","progressId":"hot.reload","finished":true}}]
+[2:21:34 PM]: <== Reloaded 1 of 455 libraries in 517ms.
+[2:21:34 PM]: <== [{"id":"18","result":{"code":0,"message":"Reloaded 1 of 455 libraries"}}]
